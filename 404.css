@@ -2,7 +2,8 @@
 
 img
 {
-    
+    border: 1px solid;
+    border-radius: 50%;
     position: relative;
     float: left;
 }
@@ -14,14 +15,22 @@ h1 {
     text-align: center;
 }
 p{
-    font-size: 50px;
+    font-size: 35px;
     color: dark;
     text-align: center;
+}
+p a
+{
+    text-decoration: none;
+  background-color: blue;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: white;
 }
 
 body
 {
-    background-image: url('404.gif');
+    background-image: url('404.jpeg');
     background-size: cover; 
     background-repeat: no-repeat; 
     background-attachment: fixed;
