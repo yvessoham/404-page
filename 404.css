@@ -1,34 +1,28 @@
-.error 
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-	grid-template-areas: "mag mag git";
-	width: 1200px;
-	margin: 100px auto;	
-}
-.mag 
-{
-    grid-area: mag;
-    text-align: center;
-    text-decoration: double;
-    font-size: 50px;
-    
-}
-.git {
-    grid-area: git;
-    font-size: 100px;
-}
+
+
 img
 {
-    width: 400px;
+    
+    position: relative;
+    float: left;
 }
 
-h1{
-    color: red;
+h1 {
+    color: darkcyan;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+    text-align: center;
+}
+p{
+    font-size: 50px;
+    color: dark;
+    text-align: center;
 }
 
 body
 {
-    background-color: brown;
+    background-image: url('404.gif');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
 }
